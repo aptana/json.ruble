@@ -1,9 +1,12 @@
 require 'ruble'
 
 bundle 'JSON' do |bundle|
-  bundle.author = 'James Edward Gray II'
-  bundle.contact_email_rot_13 = 'wnzrf@tenlcebqhpgvbaf.arg'
+  bundle.author = 'Christopher Williams'
+  bundle.copyright = "© Copyright 2010 Aptana Inc. Distributed under the MIT license."
+  bundle.repository = "git://github.com/aptana/json.ruble.git"
   bundle.description =  <<END
+JSON bundle ported from James Edward Gray II's TextMate bundle.
+
 Syntax highlight for <a href="http://json.org/">JavaScript Object Notation</a> files, often used as a lightweight serialization format.
 END
   start_folding = /(?x:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)/
