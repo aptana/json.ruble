@@ -1,9 +1,10 @@
 require 'ruble'
 
-bundle 'JSON' do |bundle|
+bundle do |bundle|
   bundle.author = 'Christopher Williams'
   bundle.copyright = "© Copyright 2010 Aptana Inc. Distributed under the MIT license."
   bundle.repository = "git://github.com/aptana/json.ruble.git"
+  bundle.display_name = 'JSON'
   bundle.description =  <<END
 JSON bundle ported from James Edward Gray II's TextMate bundle.
 
