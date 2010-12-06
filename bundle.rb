@@ -13,7 +13,6 @@ END
   start_folding = /(?x:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)/
   end_folding = /(?x:^\s*[}\]])/
   bundle.folding['source.json'] = start_folding, end_folding
-  bundle.file_types['source.json'] = '*.json'
 
   bundle.menu 'JSON' do |main_menu|
     main_menu.scope = [ 'source.json' ]
