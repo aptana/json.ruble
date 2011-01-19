@@ -1,0 +1,50 @@
+!!com.aptana.scripting.model.BundleElement
+author: Christopher Williams
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id002 []
+    commandName: Reformat Document / Selection
+    customProperties: null
+    displayName: Reformat Document / Selection
+    path: bundle.rb
+    scope: null
+  commandName: JSON
+  customProperties: null
+  displayName: JSON
+  path: bundle.rb
+  scope: source.json
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Reformat Document / Selection
+  inputPath: null
+  keyBindingMap:
+    !!com.aptana.scripting.model.Platform 'ALL': [CONTROL+M2+H]
+  outputPath: null
+  outputType: replace_selection
+  path: commands/reformat_document.rb
+  runType: current_thread
+  scope: source.json
+  workingDirectoryType: UNDEFINED
+copyright: © Copyright 2010 Aptana Inc. Distributed under the MIT license.
+customProperties: null
+decreaseIndentMarkers: &id001 {}
+description: 'JSON bundle ported from James Edward Gray II''s TextMate bundle.
+
+
+  Syntax highlight for <a href="http://json.org/">JavaScript Object Notation</a> files,
+  often used as a lightweight serialization format.
+
+  '
+displayName: JSON
+fileTypeRegistry: *id001
+fileTypes: *id002
+foldingStartMarkers: {!scope 'source.json': !regexp '(?x-mi:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)'}
+foldingStopMarkers: {!scope 'source.json': !regexp '(?x-mi:^\s*[}\]])'}
+increaseIndentMarkers: *id001
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git://github.com/aptana/json.ruble.git
+visible: true
