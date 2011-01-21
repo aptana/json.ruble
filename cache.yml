@@ -3,7 +3,7 @@ author: Christopher Williams
 children:
 - !!com.aptana.scripting.model.MenuElement
   children:
-  - children: &id002 []
+  - children: []
     commandName: Reformat Document / Selection
     customProperties: null
     displayName: Reformat Document / Selection
@@ -14,7 +14,7 @@ children:
   displayName: JSON
   path: bundle.rb
   scope: source.json
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties: null
   displayName: Reformat Document / Selection
@@ -29,7 +29,7 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: © Copyright 2010 Aptana Inc. Distributed under the MIT license.
 customProperties: null
-decreaseIndentMarkers: &id001 {}
+decreaseIndentMarkers: {}
 description: 'JSON bundle ported from James Edward Gray II''s TextMate bundle.
 
 
@@ -38,11 +38,11 @@ description: 'JSON bundle ported from James Edward Gray II''s TextMate bundle.
 
   '
 displayName: JSON
-fileTypeRegistry: *id001
-fileTypes: *id002
+fileTypeRegistry: {}
+fileTypes: []
 foldingStartMarkers: {!scope 'source.json': !regexp '(?x-mi:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)'}
 foldingStopMarkers: {!scope 'source.json': !regexp '(?x-mi:^\s*[}\]])'}
-increaseIndentMarkers: *id001
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb
