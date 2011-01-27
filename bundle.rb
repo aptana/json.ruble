@@ -10,9 +10,10 @@ JSON bundle ported from James Edward Gray II's TextMate bundle.
 
 Syntax highlight for <a href="http://json.org/">JavaScript Object Notation</a> files, often used as a lightweight serialization format.
 END
-  start_folding = /(?x:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)/
-  end_folding = /(?x:^\s*[}\]])/
-  bundle.folding['source.json'] = start_folding, end_folding
+  # Set up folding. Folding is now done in Java code for this language
+  # start_folding = /(?x:^\s*[{\[](?!.*[}\]],?\s*$)|[{\[]\s*$)/
+  # end_folding = /(?x:^\s*[}\]])/
+  # bundle.folding['source.json'] = start_folding, end_folding
 
   bundle.menu 'JSON' do |main_menu|
     main_menu.scope = [ 'source.json' ]
