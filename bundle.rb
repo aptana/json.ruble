@@ -2,7 +2,7 @@ require 'ruble'
 
 bundle do |bundle|
   bundle.author = 'Christopher Williams'
-  bundle.copyright = "© Copyright 2010 Aptana Inc. Distributed under the MIT license."
+  bundle.copyright = "Copyright 2010 Aptana Inc. Distributed under the MIT license."
   bundle.repository = "git://github.com/aptana/json.ruble.git"
   bundle.display_name = 'JSON'
   bundle.description =  <<END
