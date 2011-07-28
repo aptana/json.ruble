@@ -28,20 +28,6 @@ children:
   runType: current_thread
   scope: source.json
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.TemplateElement
-  async: false
-  customProperties: null
-  displayName: JSON Template
-  filetype: '*.json'
-  input: []
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: discard
-  path: templates/templates.rb
-  runType: current_thread
-  scope: null
-  workingDirectoryType: UNDEFINED
 copyright: Copyright 2010 Aptana Inc. Distributed under the MIT license.
 customProperties: null
 decreaseIndentMarkers: &id001 {}
