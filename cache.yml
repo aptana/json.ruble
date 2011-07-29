@@ -14,20 +14,6 @@ children:
   displayName: JSON
   path: bundle.rb
   scope: source.json
-- !!com.aptana.scripting.model.CommandElement
-  async: false
-  customProperties: null
-  displayName: Reformat Document / Selection
-  input: [selection]
-  inputPath: null
-  keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [CONTROL+M2+H]
-  outputPath: null
-  outputType: replace_selection
-  path: commands/reformat_document.rb
-  runType: current_thread
-  scope: source.json
-  workingDirectoryType: UNDEFINED
 copyright: Copyright 2010 Aptana Inc. Distributed under the MIT license.
 customProperties: null
 decreaseIndentMarkers: &id001 {}
