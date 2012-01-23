@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Reformat Document / Selection' do |cmd|
+command t(:reformat) do |cmd|
   cmd.key_binding = 'CONTROL+M2+H'
   cmd.scope = 'source.json'
   cmd.output = :replace_selection
